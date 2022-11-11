@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="estilos/style.css">
     <title>Cadastro Devs</title>
 </head>
+
 <body>
     <div>
         <h1 id="titulo">Cadastro Devs</h1>
@@ -49,30 +50,31 @@
             <label for="senioridade" ><strong>Senioridade</strong></label>
             <select id="senioridade">
                 <option selected disabled value="">Selecione</option>
-                <option>Junior</option>
+                <option>Júnior</option>
                 <option>Pleno</option>
-                <option>Senior</option>
+                <option>Sênior</option>
             </select>
+        </div>
 
-            <fieldset class="campo">
-                <div id="check">
-                    <label><strong>Selecione as tecnologias que utiliza:</strong></label><br><br>
-                    <input type="checkbox" name="tecnologia1" id="tecnologia1" value="HTML">
-                    <label for="tecnologia1">HTML</label>
-                    <input type="checkbox" name="tecnologia2" id="tecnologia2" value="CSS">
-                    <label for="tecnologia2">CSS</label>
-                    <input type="checkbox" name="tecnologia3" id="tecnologia3" value="JavaScript">
-                    <label for="tecnologia3">JavaScript</label>
-                    <input type="checkbox" name="tecnologia4" id="tecnologia4" value="PHP">
-                    <label for="tecnologia4">PHP</label>
-                    <input type="checkbox" name="tecnologia5" id="tecnologia5" value="C#">
-                    <label for="tecnologia5">C#</label>
-                    <input type="checkbox" name="tecnologia6" id="tecnologia6" value="Python">
-                    <label for="tecnologia6">Python</label>
-                    <input type="checkbox" name="tecnologia7" id="tecnologia7" value="Java">
-                    <label for="tecnologia7">Java</label>
-                </div>
-            </fieldset>
+        <fieldset class="grupo">
+            <div id="check">
+                <label><strong>Selecione as tecnologias que utiliza:</strong></label><br><br>
+                <input type="checkbox" name="tecnologia1" id="tecnologia1" value="HTML">
+                <label for="tecnologia1">HTML</label>
+                <input type="checkbox" name="tecnologia2" id="tecnologia2" value="CSS">
+                <label for="tecnologia2">CSS</label>
+                <input type="checkbox" name="tecnologia3" id="tecnologia3" value="JavaScript">
+                <label for="tecnologia3">JavaScript</label>
+                <input type="checkbox" name="tecnologia4" id="tecnologia4" value="PHP">
+                <label for="tecnologia4">PHP</label>
+                <input type="checkbox" name="tecnologia5" id="tecnologia5" value="C#">
+                <label for="tecnologia5">C#</label>
+                <input type="checkbox" name="tecnologia6" id="tecnologia6" value="Python">
+                <label for="tecnologia6">Python</label>
+                <input type="checkbox" name="tecnologia7" id="tecnologia7" value="Java">
+                <label for="tecnologia7">Java</label>
+            </div>
+        </fieldset>
 
             <div class="campo">
                 <br>
@@ -80,8 +82,8 @@
                 <textarea name="experiencia" id="experiencia" rows="6" style="width: 26em;"></textarea>
             </div>
 
-            <button type="submit" class="botao" onsubmit="">Concluido</button>
-        </div>
+            <button type="submit" class="botao" onsubmit="">Concluído</button>
+        
     </form>
 </body>
 </html>
